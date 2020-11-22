@@ -1,0 +1,2 @@
+CONTAINER ID        IMAGE                    COMMAND                  CREATED             STATUS              PORTS                NAMES
+d214820285bf        docker/getting-started   "/docker-entrypoint.…"   33 minutes ago      Up 32 minutes       0.0.0.0:80->80/tcp   crazy_turing

@@ -2,7 +2,7 @@ DirectoryIndex index.html
 
 #---redirect
 Redirect 301 /page /redirect.html
-Redirect 301 /mybook  https://medium.com/@SaadAAkash/docker-for-dummies-literally-ab3fc6362d5f
+Redirect 301 /mybook  https://bryanuniversity.on.worldcat.org/search?queryString=Docker#/oclc/933784183
 Redirect 302 /github https://github.com/jcgray77/AFS-205
 
 #----This is Error Documents

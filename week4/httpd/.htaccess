@@ -1,0 +1,15 @@
+DirectoryIndex index.html
+
+#---redirect
+Redirect 301 /page /redirect.html
+Redirect 301 /mybook  https://medium.com/@SaadAAkash/docker-for-dummies-literally-ab3fc6362d5f
+Redirect 302 /github https://github.com/jcgray77/AFS-205
+
+#----This is Error Documents
+ErrorDocument 400 "Bad Request"
+ErrorDocument 401 "Authorization Required"
+ErrorDocument 403 "Forbidden"
+ErrorDocument 404 /404.html
+ErrorDocument 500 /500.html
+ErrorDocument 502 "Bad Gateway"
+ErrorDocument 503 "Service Unabailable"

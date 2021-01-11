@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>skaffold</id>
+    <version>1.17.2</version>
+    <title>Skaffold (Install)</title>
+    <authors>David Gageot</authors>
+    <owners>Julien Fabre</owners>
+    <licenseUrl>https://github.com/GoogleContainerTools/skaffold/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/GoogleContainerTools/skaffold</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/GoogleContainerTools/skaffold/e6f37af6/docs/img/skaffold.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Skaffold is a command line tool that facilitates continuous development for Kubernetes applications. You can iterate on your application source code locally then deploy to local or remote Kubernetes clusters. Skaffold handles the workflow for building, pushing and deploying your application. It can also be used in an automated context such as a CI/CD pipeline to leverage the same workflow and tooling when moving applications to production.</description>
+    <summary>skaffold</summary>
+    <releaseNotes>https://github.com/GoogleContainerTools/skaffold/releases</releaseNotes>
+    <tags>skaffold kubernetes docker</tags>
+    <packageSourceUrl>https://github.com/jufab/skaffold-chocolatey</packageSourceUrl>
+    <docsUrl>https://github.com/GoogleContainerTools/skaffold/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/GoogleContainerTools/skaffold/issues</bugTrackerUrl>
+  </metadata>
+</package>

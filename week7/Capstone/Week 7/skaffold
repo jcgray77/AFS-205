@@ -1,0 +1,4 @@
+     UID     PID    PPID  TTY        STIME COMMAND
+   16469     142       1 cons1      Jan  5 /usr/bin/bash
+   16469    1167     142 cons1    17:07:21 /usr/bin/PS
+   16469     127       1 cons0      Jan  5 /usr/bin/bash

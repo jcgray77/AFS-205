@@ -1,0 +1,395 @@
+2021-01-05 20:32:43,260 13196 [INFO ] - ============================================================
+2021-01-05 20:32:45,865 13196 [INFO ] - 0.10.15
+2021-01-05 20:37:39,980 13040 [INFO ] - ============================================================
+2021-01-05 20:37:41,605 13040 [INFO ] - Chocolatey v0.10.15
+2021-01-05 20:37:42,416 13040 [WARN ] - Directory '%INSTALLDIR%\lib' does not exist.
+2021-01-05 20:37:42,833 13040 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-05 20:37:42,843 13040 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-05 20:37:42,866 13040 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-05 20:37:43,093 13040 [INFO ] - For the question below, you have 20 seconds to make a selection.
+2021-01-05 20:37:43,162 13040 [INFO ] - 
+ Do you want to continue?
+2021-01-05 20:37:43,173 13040 [INFO ] -  1) yes
+2021-01-05 20:37:43,208 13040 [INFO ] -  2) no
+2021-01-05 20:38:03,357 13040 [ERROR] - Timeout or your choice of '' is not a valid selection.
+2021-01-05 20:38:03,604 13040 [INFO ] - Installing the following packages:
+2021-01-05 20:38:03,631 13040 [INFO ] - skaffold
+2021-01-05 20:38:03,725 13040 [INFO ] - By installing you accept licenses for the packages.
+2021-01-05 20:38:06,521 13040 [INFO ] - [NuGet] Installing 'skaffold 1.17.2'.
+2021-01-05 20:38:06,919 13040 [INFO ] - [NuGet] Successfully installed 'skaffold 1.17.2'.
+2021-01-05 20:38:06,922 13040 [INFO ] - 
+skaffold v1.17.2 [Approved]
+2021-01-05 20:38:06,964 13040 [INFO ] - skaffold package files install completed. Performing other installation steps.
+2021-01-05 20:38:10,409 13040 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2021-01-05 20:38:10,805 13040 [ERROR] - ERROR: The term 'Get-WebFile' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2021-01-05 20:38:12,725 13040 [ERROR] - The install of skaffold was NOT successful.
+2021-01-05 20:38:12,812 13040 [ERROR] - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-05 20:38:14,966 13040 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2021-01-05 20:38:14,970 13040 [INFO ] - 
+2021-01-05 20:38:15,007 13040 [ERROR] - Failures
+2021-01-05 20:38:15,011 13040 [ERROR] -  - skaffold (exited -1) - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-05 20:42:03,104 3624 [INFO ] - ============================================================
+2021-01-05 20:42:04,174 3624 [INFO ] - Chocolatey v0.10.15
+2021-01-05 20:42:04,805 3624 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-05 20:42:04,811 3624 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-05 20:42:04,834 3624 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-05 20:42:04,945 3624 [INFO ] - For the question below, you have 20 seconds to make a selection.
+2021-01-05 20:42:04,998 3624 [INFO ] - 
+ Do you want to continue?
+2021-01-05 20:42:05,000 3624 [INFO ] -  1) yes
+2021-01-05 20:42:05,002 3624 [INFO ] -  2) no
+2021-01-05 20:42:25,024 3624 [ERROR] - Timeout or your choice of '' is not a valid selection.
+2021-01-05 20:42:25,220 3624 [INFO ] - Installing the following packages:
+2021-01-05 20:42:25,224 3624 [INFO ] - skaffold
+2021-01-05 20:42:25,267 3624 [INFO ] - By installing you accept licenses for the packages.
+2021-01-05 20:42:26,922 3624 [INFO ] - [NuGet] Installing 'skaffold 1.17.2'.
+2021-01-05 20:42:27,296 3624 [INFO ] - [NuGet] Successfully installed 'skaffold 1.17.2'.
+2021-01-05 20:42:27,300 3624 [INFO ] - 
+skaffold v1.17.2 [Approved]
+2021-01-05 20:42:27,345 3624 [INFO ] - skaffold package files install completed. Performing other installation steps.
+2021-01-05 20:42:29,270 3624 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2021-01-05 20:42:30,424 3624 [ERROR] - ERROR: The term 'Get-WebFile' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2021-01-05 20:42:31,918 3624 [ERROR] - The install of skaffold was NOT successful.
+2021-01-05 20:42:31,944 3624 [ERROR] - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-05 20:42:34,044 3624 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2021-01-05 20:42:34,076 3624 [INFO ] - 
+2021-01-05 20:42:34,080 3624 [ERROR] - Failures
+2021-01-05 20:42:34,111 3624 [ERROR] -  - skaffold (exited -1) - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-05 20:53:39,880 15092 [INFO ] - ============================================================
+2021-01-05 20:53:41,362 15092 [INFO ] - Chocolatey v0.10.15
+2021-01-05 20:53:41,921 15092 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-05 20:53:41,924 15092 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-05 20:53:41,928 15092 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-05 20:53:42,022 15092 [INFO ] - For the question below, you have 20 seconds to make a selection.
+2021-01-05 20:53:42,136 15092 [INFO ] - 
+ Do you want to continue?
+2021-01-05 20:53:42,138 15092 [INFO ] -  1) yes
+2021-01-05 20:53:42,148 15092 [INFO ] -  2) no
+2021-01-05 20:53:47,582 15092 [INFO ] - Choice selected: 'yes'
+2021-01-05 20:53:47,699 15092 [INFO ] - Installing the following packages:
+2021-01-05 20:53:47,708 15092 [INFO ] - skaffold
+2021-01-05 20:53:47,715 15092 [INFO ] - By installing you accept licenses for the packages.
+2021-01-05 20:53:50,428 15092 [INFO ] - [NuGet] Installing 'skaffold 1.17.2'.
+2021-01-05 20:53:50,968 15092 [INFO ] - [NuGet] Successfully installed 'skaffold 1.17.2'.
+2021-01-05 20:53:50,972 15092 [INFO ] - 
+skaffold v1.17.2 [Approved]
+2021-01-05 20:53:51,296 15092 [INFO ] - skaffold package files install completed. Performing other installation steps.
+2021-01-05 20:53:53,519 15092 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2021-01-05 20:53:53,834 15092 [ERROR] - ERROR: The term 'Get-WebFile' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2021-01-05 20:53:54,454 15092 [ERROR] - The install of skaffold was NOT successful.
+2021-01-05 20:53:54,464 15092 [ERROR] - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-05 20:53:56,546 15092 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2021-01-05 20:53:56,550 15092 [INFO ] - 
+2021-01-05 20:53:56,556 15092 [ERROR] - Failures
+2021-01-05 20:53:56,623 15092 [ERROR] -  - skaffold (exited -1) - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-07 17:31:13,767 17436 [INFO ] - ============================================================
+2021-01-07 17:31:15,764 17436 [INFO ] - Chocolatey v0.10.15
+2021-01-07 17:31:16,433 17436 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-07 17:31:16,433 17436 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-07 17:31:16,497 17436 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-07 17:31:16,808 17436 [INFO ] - For the question below, you have 20 seconds to make a selection.
+2021-01-07 17:31:16,821 17436 [INFO ] - 
+ Do you want to continue?
+2021-01-07 17:31:16,822 17436 [INFO ] -  1) yes
+2021-01-07 17:31:16,825 17436 [INFO ] -  2) no
+2021-01-07 17:31:19,120 17436 [INFO ] - Choice selected: 'yes'
+2021-01-07 17:31:19,203 17436 [INFO ] - Installing the following packages:
+2021-01-07 17:31:19,208 17436 [INFO ] - chocolately.extension
+2021-01-07 17:31:19,240 17436 [INFO ] - By installing you accept licenses for the packages.
+2021-01-07 17:31:20,735 17436 [ERROR] - chocolately.extension not installed. The package was not found with the source(s) listed.
+ Source(s): 'https://chocolatey.org/api/v2/'
+ NOTE: When you specify explicit sources, it overrides default sources.
+If the package version is a prerelease and you didn't specify `--pre`,
+ the package may not be found.
+Please see https://chocolatey.org/docs/troubleshooting for more 
+ assistance.
+2021-01-07 17:31:20,946 17436 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2021-01-07 17:31:20,997 17436 [INFO ] - 
+2021-01-07 17:31:21,139 17436 [ERROR] - Failures
+2021-01-07 17:31:21,169 17436 [ERROR] -  - chocolately.extension - chocolately.extension not installed. The package was not found with the source(s) listed.
+ Source(s): 'https://chocolatey.org/api/v2/'
+ NOTE: When you specify explicit sources, it overrides default sources.
+If the package version is a prerelease and you didn't specify `--pre`,
+ the package may not be found.
+Please see https://chocolatey.org/docs/troubleshooting for more 
+ assistance.
+2021-01-07 17:31:21,238 17436 [WARN ] - 
+Did you know the proceeds of Pro (and some proceeds from other
+ licensed editions) go into bettering the community infrastructure?
+ Your support ensures an active community, keeps Chocolatey tip top,
+ plus it nets you some awesome features!
+ https://chocolatey.org/compare
+2021-01-07 17:32:00,490 14840 [INFO ] - ============================================================
+2021-01-07 17:32:03,075 14840 [INFO ] - Chocolatey v0.10.15
+2021-01-07 17:43:20,145 9212 [INFO ] - ============================================================
+2021-01-07 17:43:22,294 9212 [INFO ] - Chocolatey v0.10.15
+2021-01-07 17:43:22,824 9212 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-07 17:43:22,824 9212 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-07 17:43:22,834 9212 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-07 17:43:23,041 9212 [INFO ] - For the question below, you have 20 seconds to make a selection.
+2021-01-07 17:43:23,052 9212 [INFO ] - 
+ Do you want to continue?
+2021-01-07 17:43:23,054 9212 [INFO ] -  1) yes
+2021-01-07 17:43:23,057 9212 [INFO ] -  2) no
+2021-01-07 17:43:24,641 9212 [INFO ] - Choice selected: 'no'
+2021-01-08 19:17:52,536 13276 [INFO ] - ============================================================
+2021-01-08 19:17:53,736 13276 [INFO ] - Chocolatey v0.10.15
+2021-01-08 19:17:54,418 13276 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-08 19:17:54,418 13276 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-08 19:17:54,531 13276 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-08 19:17:54,918 13276 [INFO ] - For the question below, you have 20 seconds to make a selection.
+2021-01-08 19:17:54,925 13276 [INFO ] - 
+ Do you want to continue?
+2021-01-08 19:17:54,930 13276 [INFO ] -  1) yes
+2021-01-08 19:17:54,995 13276 [INFO ] -  2) no
+2021-01-08 19:17:56,907 13276 [INFO ] - Choice selected: 'yes'
+2021-01-08 19:17:57,020 13276 [INFO ] - Installing the following packages:
+2021-01-08 19:17:57,182 13276 [INFO ] - skaffold
+2021-01-08 19:17:57,204 13276 [INFO ] - By installing you accept licenses for the packages.
+2021-01-08 19:18:01,205 13276 [INFO ] - [NuGet] Installing 'skaffold 1.17.2'.
+2021-01-08 19:18:01,611 13276 [INFO ] - [NuGet] Successfully installed 'skaffold 1.17.2'.
+2021-01-08 19:18:01,614 13276 [INFO ] - 
+skaffold v1.17.2 [Approved]
+2021-01-08 19:18:01,651 13276 [INFO ] - skaffold package files install completed. Performing other installation steps.
+2021-01-08 19:18:04,085 13276 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2021-01-08 19:18:08,378 13276 [ERROR] - ERROR: The term 'Get-WebFile' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2021-01-08 19:18:09,486 13276 [ERROR] - The install of skaffold was NOT successful.
+2021-01-08 19:18:09,492 13276 [ERROR] - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-08 19:18:11,613 13276 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2021-01-08 19:18:11,626 13276 [INFO ] - 
+2021-01-08 19:18:11,825 13276 [ERROR] - Failures
+2021-01-08 19:18:11,855 13276 [ERROR] -  - skaffold (exited -1) - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-08 19:34:57,604 12076 [INFO ] - ============================================================
+2021-01-08 19:34:59,550 12076 [INFO ] - Chocolatey v0.10.15
+2021-01-08 19:35:00,409 12076 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-08 19:35:00,425 12076 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-08 19:35:00,435 12076 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-08 19:35:00,934 12076 [INFO ] - 
+ Do you want to continue?
+2021-01-08 19:35:00,937 12076 [INFO ] -  1) yes
+2021-01-08 19:35:00,942 12076 [INFO ] -  2) no
+2021-01-08 19:35:03,276 12076 [INFO ] - Choice selected: 'yes'
+2021-01-08 19:35:03,402 12076 [INFO ] - Installing the following packages:
+2021-01-08 19:35:03,427 12076 [INFO ] - skaffold
+2021-01-08 19:35:03,638 12076 [INFO ] - By installing you accept licenses for the packages.
+2021-01-08 19:35:08,340 12076 [INFO ] - [NuGet] Installing 'skaffold 1.17.2'.
+2021-01-08 19:35:08,698 12076 [INFO ] - [NuGet] Successfully installed 'skaffold 1.17.2'.
+2021-01-08 19:35:08,698 12076 [INFO ] - 
+skaffold v1.17.2 [Approved]
+2021-01-08 19:35:08,758 12076 [INFO ] - skaffold package files install completed. Performing other installation steps.
+2021-01-08 19:35:09,143 12076 [INFO ] - The package skaffold wants to run 'chocolateyinstall.ps1'.
+2021-01-08 19:35:09,158 12076 [INFO ] - Note: If you don't run this script, the installation will fail.
+2021-01-08 19:35:09,315 12076 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2021-01-08 19:35:09,365 12076 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2021-01-08 19:35:09,420 12076 [INFO ] - Do you want to run the script?
+2021-01-08 19:35:09,422 12076 [INFO ] -  1) yes
+2021-01-08 19:35:09,447 12076 [INFO ] -  2) all - yes to all
+2021-01-08 19:35:09,449 12076 [INFO ] -  3) no
+2021-01-08 19:35:09,680 12076 [INFO ] -  4) print
+2021-01-08 19:35:15,490 12076 [INFO ] - Choice selected: 'yes'
+2021-01-08 19:35:16,970 12076 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2021-01-08 19:35:20,653 12076 [ERROR] - ERROR: The term 'Get-WebFile' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2021-01-08 19:35:21,623 12076 [ERROR] - The install of skaffold was NOT successful.
+2021-01-08 19:35:21,679 12076 [ERROR] - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-08 19:35:23,917 12076 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2021-01-08 19:35:24,149 12076 [INFO ] - 
+2021-01-08 19:35:24,229 12076 [ERROR] - Failures
+2021-01-08 19:35:24,266 12076 [ERROR] -  - skaffold (exited -1) - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-08 19:35:24,312 12076 [WARN ] - 
+Did you know the proceeds of Pro (and some proceeds from other
+ licensed editions) go into bettering the community infrastructure?
+ Your support ensures an active community, keeps Chocolatey tip top,
+ plus it nets you some awesome features!
+ https://chocolatey.org/compare
+2021-01-08 19:39:22,701 15216 [INFO ] - ============================================================
+2021-01-08 19:39:23,881 15216 [INFO ] - Chocolatey v0.10.15
+2021-01-08 19:39:24,853 15216 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-08 19:39:24,877 15216 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-08 19:39:24,983 15216 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-08 19:39:25,933 15216 [INFO ] - 
+ Do you want to continue?
+2021-01-08 19:39:25,935 15216 [INFO ] -  1) yes
+2021-01-08 19:39:25,956 15216 [INFO ] -  2) no
+2021-01-08 19:39:28,192 15216 [INFO ] - Choice selected: 'yes'
+2021-01-08 19:39:28,283 15216 [INFO ] - Installing the following packages:
+2021-01-08 19:39:28,288 15216 [INFO ] - skaffold
+2021-01-08 19:39:28,291 15216 [INFO ] - By installing you accept licenses for the packages.
+2021-01-08 19:39:30,592 15216 [INFO ] - [NuGet] Installing 'skaffold 1.17.2'.
+2021-01-08 19:39:30,952 15216 [INFO ] - [NuGet] Successfully installed 'skaffold 1.17.2'.
+2021-01-08 19:39:30,958 15216 [INFO ] - 
+skaffold v1.17.2 [Approved]
+2021-01-08 19:39:31,015 15216 [INFO ] - skaffold package files install completed. Performing other installation steps.
+2021-01-08 19:39:31,292 15216 [INFO ] - The package skaffold wants to run 'chocolateyinstall.ps1'.
+2021-01-08 19:39:31,297 15216 [INFO ] - Note: If you don't run this script, the installation will fail.
+2021-01-08 19:39:31,340 15216 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2021-01-08 19:39:31,342 15216 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2021-01-08 19:39:31,353 15216 [INFO ] - Do you want to run the script?
+2021-01-08 19:39:31,355 15216 [INFO ] -  1) yes
+2021-01-08 19:39:31,414 15216 [INFO ] -  2) all - yes to all
+2021-01-08 19:39:31,419 15216 [INFO ] -  3) no
+2021-01-08 19:39:31,612 15216 [INFO ] -  4) print
+2021-01-08 19:39:35,510 15216 [INFO ] - Choice selected: 'yes'
+2021-01-08 19:39:36,288 15216 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2021-01-08 19:39:40,029 15216 [ERROR] - ERROR: The term 'Get-WebFile' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2021-01-08 19:39:41,219 15216 [ERROR] - The install of skaffold was NOT successful.
+2021-01-08 19:39:41,246 15216 [ERROR] - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-08 19:39:43,385 15216 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2021-01-08 19:39:43,431 15216 [INFO ] - 
+2021-01-08 19:39:43,987 15216 [ERROR] - Failures
+2021-01-08 19:39:43,995 15216 [ERROR] -  - skaffold (exited -1) - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-11 10:53:34,368 8544 [INFO ] - ============================================================
+2021-01-11 10:53:35,510 8544 [INFO ] - Chocolatey v0.10.15
+2021-01-11 10:53:36,185 8544 [INFO ] - 2 validations performed. 2 success(es), 0 warning(s), and 0 error(s).
+2021-01-11 10:53:36,193 8544 [WARN ] - Chocolatey detected you are not running from an elevated command shell
+ (cmd/powershell).
+2021-01-11 10:53:36,195 8544 [WARN ] - 
+ You may experience errors - many functions/packages
+ require admin rights. Only advanced users should run choco w/out an
+ elevated shell. When you open the command shell, you should ensure 
+ that you do so with "Run as Administrator" selected. If you are 
+ attempting to use Chocolatey in a non-administrator setting, you
+ must select a different location other than the default install
+ location. See 
+ https://chocolatey.org/install#non-administrative-install for details.
+
+2021-01-11 10:53:36,846 8544 [INFO ] - 
+ Do you want to continue?
+2021-01-11 10:53:36,848 8544 [INFO ] -  1) yes
+2021-01-11 10:53:36,863 8544 [INFO ] -  2) no
+2021-01-11 10:53:38,391 8544 [INFO ] - Choice selected: 'yes'
+2021-01-11 10:53:38,549 8544 [INFO ] - Installing the following packages:
+2021-01-11 10:53:38,600 8544 [INFO ] - skaffold
+2021-01-11 10:53:38,728 8544 [INFO ] - By installing you accept licenses for the packages.
+2021-01-11 10:53:43,775 8544 [INFO ] - [NuGet] Installing 'skaffold 1.17.2'.
+2021-01-11 10:53:44,189 8544 [INFO ] - [NuGet] Successfully installed 'skaffold 1.17.2'.
+2021-01-11 10:53:44,192 8544 [INFO ] - 
+skaffold v1.17.2 [Approved]
+2021-01-11 10:53:44,317 8544 [INFO ] - skaffold package files install completed. Performing other installation steps.
+2021-01-11 10:53:44,748 8544 [INFO ] - The package skaffold wants to run 'chocolateyinstall.ps1'.
+2021-01-11 10:53:44,770 8544 [INFO ] - Note: If you don't run this script, the installation will fail.
+2021-01-11 10:53:45,015 8544 [INFO ] - Note: To confirm automatically next time, use '-y' or consider:
+2021-01-11 10:53:45,079 8544 [INFO ] - choco feature enable -n allowGlobalConfirmation
+2021-01-11 10:53:45,312 8544 [INFO ] - Do you want to run the script?
+2021-01-11 10:53:45,316 8544 [INFO ] -  1) yes
+2021-01-11 10:53:45,340 8544 [INFO ] -  2) all - yes to all
+2021-01-11 10:53:45,340 8544 [INFO ] -  3) no
+2021-01-11 10:53:45,344 8544 [INFO ] -  4) print
+2021-01-11 10:53:49,233 8544 [INFO ] - Choice selected: 'yes'
+2021-01-11 10:53:50,108 8544 [ERROR] - The specified module '%INSTALLDIR%\helpers\chocolateyInstaller.psm1' was not loaded because no valid module file was found in any module directory.
+2021-01-11 10:53:54,591 8544 [ERROR] - ERROR: The term 'Get-WebFile' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+2021-01-11 10:53:55,502 8544 [ERROR] - The install of skaffold was NOT successful.
+2021-01-11 10:53:55,538 8544 [ERROR] - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.
+2021-01-11 10:53:57,613 8544 [WARN ] - 
+Chocolatey installed 0/1 packages. 1 packages failed.
+ See the log for details (%INSTALLDIR%\logs\chocolatey.log).
+2021-01-11 10:53:57,751 8544 [INFO ] - 
+2021-01-11 10:53:57,756 8544 [ERROR] - Failures
+2021-01-11 10:53:57,765 8544 [ERROR] -  - skaffold (exited -1) - Error while running '%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1'.
+ See log for details.

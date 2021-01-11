@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: NetworkPolicy
+metadata:
+  creationTimestamp: null
+  name: fsw205-network
+spec:
+  ingress:
+  - from:
+    - podSelector:
+        matchLabels:
+          io.kompose.network/fsw205-network: "true"
+  podSelector:
+    matchLabels:
+      io.kompose.network/fsw205-network: "true"

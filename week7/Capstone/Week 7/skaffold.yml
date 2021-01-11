@@ -1,0 +1,26 @@
+apiVersion: skaffold/v2beta4
+kind: Config
+metadata:
+  name: fsw205-docker-services
+build:
+  artifacts:
+  - image: fsw205/nginx
+    context: .
+    docker:
+      dockerfile: .docker/nginx.production.dockerfile
+  - image: fsw205/node-fsw205
+    context: .
+    docker:
+      dockerfile: .docker/node-fsw205.production.dockerfile
+  - image: fsw205/mongo
+    context: .
+    docker:
+      dockerfile: .docker/mongo.dockerfile
+  - image: fsw205/redis
+    context: .
+    docker:
+      dockerfile: .docker/redis.production.dockerfile
+deploy:
+  kubectl:
+    manifests:
+    - .k8s/*.yml

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="%INSTALLDIR%\lib\skaffold\skaffold.nupkg" checksum="9A6D161BC7D734F0E6DB22F5D379FFC8" />
+    <file path="%INSTALLDIR%\lib\skaffold\skaffold.nuspec" checksum="7DD92990EF865ADF44E5C60EB697F3C4" />
+    <file path="%INSTALLDIR%\lib\skaffold\tools\chocolateybeforemodify.ps1" checksum="2747D715551B19216700A3686B87B600" />
+    <file path="%INSTALLDIR%\lib\skaffold\tools\chocolateyinstall.ps1" checksum="00BA122441A62F873481470EE7B6FA8F" />
+    <file path="%INSTALLDIR%\lib\skaffold\tools\chocolateyuninstall.ps1" checksum="17F18BC89DF66B587E732EDB1E8B32BD" />
+  </files>
+</fileSnapshot>
